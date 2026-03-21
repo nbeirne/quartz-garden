@@ -1,0 +1,11 @@
+---
+title: Hello
+---
+Welcome to my digital garden. I don't know what will go here. For now its a place where I put things which I am thinking about.
+
+Here are a few projects I have done:
+- Soup. monthly social gatherings of people.
+- Many differnet [Urban completionism](Urban-Completionism/What-is-it) projects.
+- Modular synthesis. This is a private practice, and does not get posted online.
+- [Spoiler free toronto](https://toronto.hydrus.xyz)
+- [Dérive](https://walk.hydrus.xyz) postering.
