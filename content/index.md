@@ -7,5 +7,5 @@ Here are a few projects I have done:
 - Soup. monthly social gatherings of people.
 - Many differnet [Urban completionism](Urban-Completionism/What-is-it) projects.
 - Modular synthesis. This is a private practice, and does not get posted online.
-- [Spoiler free toronto](https://toronto.hydrus.xyz)
-- [Dérive](https://walk.hydrus.xyz) postering.
+- [Spoiler free toronto](https://toronto.lexicondal.com)
+- [Dérive](https://walk.lexiconda..com) postering.
