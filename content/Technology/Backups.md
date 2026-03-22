@@ -3,7 +3,7 @@ Backups are one of the most important, and one of the most overlooked, areas whe
 
 As soon as you need to run anything of any importance, backups become perimount to ensuring you never lose your data. For that reason, I am writing up how I think about backups.
 
-# The 3-2-1 Strategy
+## The 3-2-1 Strategy
 Most online sources recommend a 3-2-1 strategy for storing backups. Its a great approach. 
 - Have 3 different places where data is stored.
 - Have 2 different mediums where data lives. (Hard drives, cloud storage, tape, SSDs, etc).
