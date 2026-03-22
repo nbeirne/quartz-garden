@@ -1,3 +1,8 @@
+---
+tags:
+  - technology
+  - music
+---
 
 - https://www.todepond.com
 - https://www.youtube.com/@TodePond
