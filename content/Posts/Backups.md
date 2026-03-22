@@ -1,3 +1,8 @@
+---
+tags:
+  - technology
+  - selfhosting
+---
 
 Backups are one of the most important, and one of the most overlooked, areas when you start hosting your own data. 
 

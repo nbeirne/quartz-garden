@@ -1,4 +1,10 @@
+---
+tags:
+  - urbancompletionism
+---
 Urban completionism was a term coined by my partner to describe a tendency I have. Urban environments and cities have lots of stuff to do and places to go. Too many for a person to do in a lifetime, usually. Doing _everything_ in a category is quite a feat, and something I quite enjoy doing.
+
+I classify most urban completionist projects as [Urban Art](Notes/Urban-Art). It's praxis. 
 
 --- 
 

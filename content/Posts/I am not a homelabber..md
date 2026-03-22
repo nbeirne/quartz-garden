@@ -1,3 +1,8 @@
+---
+tags:
+  - technology
+  - selfhosting
+---
 I am not a homelabber. Labs are places for experimentation. Labs are for research. Labs can treat failure as a learning experience. I do not have a lab. My services should almost never go down, unless there is an emergency. 
 
 What I value in self hosting:
