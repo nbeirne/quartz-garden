@@ -3,7 +3,6 @@ tags:
   - toronto
   - lists
 ---
-
 # Spoiler Free Toronto
 
 This page is meant to indicate locations which I personally enjoy. It's a mix of the best places, my favourites, and the like.
