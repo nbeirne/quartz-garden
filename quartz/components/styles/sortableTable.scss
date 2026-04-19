@@ -1,0 +1,66 @@
+.sortable-table-wrapper {
+  margin: 1rem 0;
+
+  & > table {
+    margin-top: 0;
+  }
+}
+
+.sortable-table-controls {
+  margin-bottom: 0.5rem;
+}
+
+.sortable-table-filter {
+  width: 100%;
+  max-width: 22rem;
+  padding: 0.35rem 0.6rem;
+  border: 1px solid var(--lightgray);
+  border-radius: 4px;
+  background: var(--light);
+  color: var(--dark);
+  font-family: inherit;
+  font-size: 0.9rem;
+
+  &:focus {
+    outline: none;
+    border-color: var(--secondary);
+  }
+}
+
+table th.sortable-col {
+  cursor: pointer;
+  user-select: none;
+  position: relative;
+  padding-right: 1.4em;
+
+  &::after {
+    content: "↕";
+    position: absolute;
+    right: 0.4em;
+    top: 50%;
+    transform: translateY(-50%);
+    opacity: 0.35;
+    font-size: 0.8em;
+  }
+
+  &.sort-asc::after {
+    content: "▲";
+    opacity: 1;
+    color: var(--secondary);
+  }
+
+  &.sort-desc::after {
+    content: "▼";
+    opacity: 1;
+    color: var(--secondary);
+  }
+
+  &:hover {
+    background: var(--lightgray);
+  }
+
+  &:focus-visible {
+    outline: 2px solid var(--secondary);
+    outline-offset: -2px;
+  }
+}
