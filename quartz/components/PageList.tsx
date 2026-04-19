@@ -1,8 +1,11 @@
-import { FullSlug, isFolderPath, resolveRelative } from "../util/path"
+import { FullSlug, isFolderPath, normalizeHastElement, resolveRelative } from "../util/path"
 import { QuartzPluginData } from "../plugins/vfile"
 import { Date, getDate } from "./Date"
 import { QuartzComponent, QuartzComponentProps } from "./types"
 import { GlobalConfiguration } from "../cfg"
+import { htmlToJsx } from "../util/jsx"
+import { Root, Element as HastElement } from "hast"
+import { MicroblogPost, microblogPostStyle } from "./MicroblogPost"
 
 export type SortFn = (f1: QuartzPluginData, f2: QuartzPluginData) => number
 
@@ -69,6 +72,35 @@ export const PageList: QuartzComponent = ({ cfg, fileData, allFiles, limit, sort
       {list.map((page) => {
         const title = page.frontmatter?.title
         const tags = page.frontmatter?.tags ?? []
+        const isMicroblog = page.isMicroblogPost === true
+        const postHref = resolveRelative(fileData.slug!, page.slug!)
+        const tagLinks = tags.map((tag) => ({
+          name: tag,
+          href: resolveRelative(fileData.slug!, `tags/${tag}` as FullSlug),
+        }))
+
+        if (isMicroblog && page.htmlAst) {
+          const sourceSlug = (page.microblogParentSlug ?? page.slug) as FullSlug
+          const rebased: Root = {
+            type: "root",
+            children: page.htmlAst.children.map((child) =>
+              normalizeHastElement(child as HastElement, fileData.slug!, sourceSlug),
+            ),
+          }
+          const dateEl = page.dates ? (
+            <Date date={getDate(cfg, page)!} locale={cfg.locale} />
+          ) : (
+            <span />
+          )
+          return (
+            <MicroblogPost
+              permalinkHref={postHref}
+              dateEl={dateEl}
+              tags={tagLinks}
+              bodyJsx={htmlToJsx(page.filePath!, rebased)}
+            />
+          )
+        }
 
         return (
           <li class="section-li">
@@ -78,19 +110,16 @@ export const PageList: QuartzComponent = ({ cfg, fileData, allFiles, limit, sort
               </p>
               <div class="desc">
                 <h3>
-                  <a href={resolveRelative(fileData.slug!, page.slug!)} class="internal">
+                  <a href={postHref} class="internal">
                     {title}
                   </a>
                 </h3>
               </div>
               <ul class="tags">
-                {tags.map((tag) => (
+                {tagLinks.map((tag) => (
                   <li>
-                    <a
-                      class="internal tag-link"
-                      href={resolveRelative(fileData.slug!, `tags/${tag}` as FullSlug)}
-                    >
-                      {tag}
+                    <a class="internal tag-link" href={tag.href}>
+                      {tag.name}
                     </a>
                   </li>
                 ))}
@@ -103,7 +132,8 @@ export const PageList: QuartzComponent = ({ cfg, fileData, allFiles, limit, sort
   )
 }
 
-PageList.css = `
+PageList.css =
+  `
 .section h3 {
   margin: 0;
 }
@@ -111,4 +141,4 @@ PageList.css = `
 .section > .tags {
   margin: 0;
 }
-`
+` + microblogPostStyle

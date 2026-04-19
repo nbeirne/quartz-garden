@@ -9,6 +9,9 @@ import { QuartzPluginData } from "../../plugins/vfile"
 import { ComponentChildren } from "preact"
 import { concatenateResources } from "../../util/resources"
 import { trieFromAllFiles } from "../../util/ctx"
+import MicroblogTimeline from "../MicroblogTimeline"
+
+const Microblog = MicroblogTimeline()
 
 interface FolderContentOptions {
   /**
@@ -29,6 +32,10 @@ export default ((opts?: Partial<FolderContentOptions>) => {
 
   const FolderContent: QuartzComponent = (props: QuartzComponentProps) => {
     const { tree, fileData, allFiles, cfg } = props
+
+    if (fileData.frontmatter?.microblog === true) {
+      return <Microblog {...props} />
+    }
 
     const trie = (props.ctx.trie ??= trieFromAllFiles(allFiles))
     const folder = trie.findNode(fileData.slug!.split("/"))
@@ -121,6 +128,6 @@ export default ((opts?: Partial<FolderContentOptions>) => {
     )
   }
 
-  FolderContent.css = concatenateResources(style, PageList.css)
+  FolderContent.css = concatenateResources(style, PageList.css, Microblog.css)
   return FolderContent
 }) satisfies QuartzComponentConstructor

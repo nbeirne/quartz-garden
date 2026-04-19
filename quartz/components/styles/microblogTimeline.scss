@@ -1,0 +1,36 @@
+.section-li.microblog-entry {
+  list-style: none;
+
+  & > .section {
+    border-left: 3px solid var(--lightgray);
+    padding-left: 1rem;
+    margin-left: calc(-1rem - 3px);
+  }
+
+  & > .section > .desc.microblog-body {
+    // font-size: 0.9rem;
+    margin-left: -0.1rem;
+    
+    & > :first-child {
+      margin-top: 0;
+    }
+    & > :last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  .microblog-permalink {
+    color: var(--darkgray);
+    text-decoration: none;
+
+    &:hover {
+      color: var(--secondary);
+      text-decoration: underline;
+    }
+  }
+}
+
+.microblog-empty {
+  color: var(--gray);
+  font-style: italic;
+}
