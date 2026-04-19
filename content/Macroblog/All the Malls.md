@@ -2,6 +2,7 @@
 tags:
   - post
   - urbancompletionism
+  - toronto
 ---
 
 I have a goal for this year: visit all the malls. According to [wikipedia](https://en.wikipedia.org/wiki/List_of_shopping_malls_in_Toronto) There are only about 57 in Toronto, and 10 of them are in the underground PATH system. 

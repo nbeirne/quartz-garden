@@ -1,6 +1,7 @@
 ---
 tags:
   - lists
+  - toronto
 sortableTables: true
 ---
 
