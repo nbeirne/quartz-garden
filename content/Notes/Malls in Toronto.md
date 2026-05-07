@@ -36,7 +36,10 @@ sortableTables: true
 | Kipling/Queensway           | 2      | 4         | 1         | 10          | 23      | NO             |
 
 
-As a bonus here are all the foodcourts in teh PATH system. Ranked.
+
+---
+
+As a bonus here are all the foodcourts in the PATH system. Ranked.
 
 | PATH Foodcourts                | Rating | Ranking | Worth Visiting |
 | ------------------------------ | ------ | ------- | -------------- |
