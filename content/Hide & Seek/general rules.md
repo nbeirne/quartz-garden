@@ -7,7 +7,7 @@
 All the seekers should turn on "Find My" or use "Bump". The hiders will have access to the seekers location at all times.
 
 There are a few different sizes of game. Check out the page for your game size:
-- **Medium game**: Check out the [Medium Game Page](./Toronto - Medium/index.md)
+- **Medium game**: Check out the the [[Hide & Seek/Toronto - Medium/index|Medium Game Index]]
 
 ## Hiding
 
