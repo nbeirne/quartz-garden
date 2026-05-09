@@ -1,6 +1,6 @@
 ---
 tags:
-  - technology
+  - tech
   - selfhosting
 ---
 
