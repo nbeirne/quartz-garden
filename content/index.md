@@ -7,7 +7,7 @@ Here are a few projects I have done:
 - Soup. monthly social gatherings of people.
 - Many different [Urban completionism](Macroblog/Urban-Completionism) projects.
 - Modular synthesis. This is a private practice, and does not get posted online.
-- [Spoiler free toronto](Macroblog/Spoiler Free Toronto)
+- [[Spoiler Free Toronto]]
 - [Dérive](https://walk.lexicondal.com) postering.
 - I [self host](Macroblog/I-am-not-a-homelabber.).
 

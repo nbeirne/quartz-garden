@@ -17,21 +17,28 @@ Valid answers are "yes" or "no".
 Hiders draw 3 and keep 1. 
 
 Fill in the blank with:
-- [[Commercial Airport]]
+- Commercial Airport
 - [[Transit Line]] (yes if the seekers would stop at the hider's station)
-- [[Station Name]]'s Length
+- Station Name's Length
 - Street or Path
 - [[Toronto Wards]]
 - [[Toronto Community Council Areas]]
-- [[Park]]
-- [[Zoo]]
-- [[Aquarium]]
-- [[Golf Course]]
-- [[Museum]]
-- [[Movie Theater]]
-- [[Hospital]]
-- [[Library]]
-- [[Foreign Consulate]]
+- Park
+- Zoo
+- Aquarium
+- Golf Course
+- Museum
+- Movie Theater
+- Hospital
+- Library
+- Foreign Consulate
+
+
+- TRANSIT LINES
+- STATIONS
+- WARDS
+- COUNCIL AREAS
+- 
 
 ## Measuring Questions
 
@@ -41,21 +48,21 @@ Valid answers are "closer" or "further".
 Hiders draw 3 and keep 1.
 
 Fill in the blank with:
-- [[Commercial Airport]]
-- [[Train Line]] (including subways, via, go, but no streetcars)
-- [[Rail Station]] (including subways, via, go, but no streetcars).
+- Commercial Airport
+- Train Line (including subways, via, go, but no streetcars)
+- Rail Station (including subways, via, go, but no streetcars).
 - [[Toronto Community Council Areas]] border
 - Sea level
-- [[Body of Water]]
-- [[Park]]
-- [[Zoo]]
-- [[Aquarium]]
-- [[Golf Course]]
-- [[Museum]]
-- [[Movie Theater]]
-- [[Hospital]]
-- [[Library]]
-- [[Foreign Consulate]]
+- Body of Water
+- Park
+- Zoo
+- Aquarium
+- Golf Course
+- Museum
+- Movie Theater
+- Hospital
+- Library
+- Foreign Consulate
 
 ## Radars
 
@@ -128,7 +135,7 @@ Valid answers are a photo, posted to group chat, which meets the full specificat
 Hiders will have 5 minutes to answer this question. Hiders draw 4 and keep 2. 
 
 Valid locations are:
-- [[Museum]]s within 2km.
-- [[Library]] within 2km.
-- [[Movie Theater]] within 2km.
-- [[Hospital]] within 2km.
+- Museums within 2km.
+- Library within 2km.
+- Movie Theater within 2km.
+- Hospital within 2km.

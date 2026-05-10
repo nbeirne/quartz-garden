@@ -17,7 +17,7 @@ https://www.ttc.ca/express-network
 System map:
 https://www.gotransit.com/en/system-map
 
-We include any go rail departing from union:
+We include any go transit line:
 https://www.gotransit.com/en/find-a-station-or-stop/un/routes-departures?q=routes
 
 - Barrie Line
