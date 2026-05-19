@@ -2,22 +2,26 @@
 title: Webring
 ---
 
-This site is part of a webring — a collection of personal blogs and websites connected by navigation links. Webrings are a way to discover other folks writing on the indie web.
+### the cool ring
 
+The coolest webring. Why is it called that? It's a long story.
 
 > [!spoiler]- Member Sites
 > - https://moss.supply/
 > - https://dylanbickers.com/
 > - https://achilleas.org/
 
-## Navigation
-
-<div class="webring-nav">
-  <a href="https://achilleas.org/" class="webring-prev">← Previous Site</a>
-  <span class="webring-separator">|</span>
-  <a href="#" class="webring-random" onclick="goToRandomSite(); return false;">Random Site</a>
-  <span class="webring-separator">|</span>
-  <a href="https://moss.supply/" class="webring-next">Next Site →</a>
+<div style="text-align: center">
+	<br>
+	<a href="/webring">the cool ring</a>
+	<br>
+	<div class="webring-nav">
+	  <a href="https://achilleas.org/" class="webring-prev">← achilleas.org</a>
+	  <span class="webring-separator">|</span>
+	  <a href="#" class="webring-random" onclick="goToRandomSite(); return false;">Random Site</a>
+	  <span class="webring-separator">|</span>
+	  <a href="https://moss.supply/" class="webring-next">moss.supply →</a>
+	</div>
 </div>
 
 <script>
