@@ -10,4 +10,4 @@ Here are a few projects I have done:
 - [[Spoiler Free Toronto]]
 - [Dérive](https://walk.lexicondal.com) postering.
 - I [self host](Macroblog/I-am-not-a-homelabber.).
-
+- I'm part of a [webring](webring).
