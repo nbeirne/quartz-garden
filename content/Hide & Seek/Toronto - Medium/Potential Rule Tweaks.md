@@ -1,0 +1,18 @@
+
+- Remove the "Train Platform" photo question. It seems over-powered in this city (it basically can tell you the exact line the person is on)
+- Add cards
+	- hide-and-seek-ception
+	- passenger princess
+	- curse of the rewind
+	- time traps
+	- express route
+	- trickster (you may lie for 3 questions)
+	- curse of the prosperous home
+		- expand hiding zone radius by 50%. Discard 20m (large game) of time bonuses.
+		- 
+	- curse of the tiny home
+		- time bonuses worth 50% more. Half the hiding zone. Play within the hiding zone.
+	- shrewd critic
+		- without using the internet, the seekers must find a location that has at least a 4.3 star average rating on Google Maps before asking another question. If their guess was wrong, they must wait 10 minutes before guessing another location.
+		- CASTING COST: Seekers must be currently off transit within 500 feet of a location that has at least a 4.3 star average rating on Google Maps.
+	- 

@@ -33,13 +33,6 @@ Fill in the blank with:
 - Library
 - Foreign Consulate
 
-
-- TRANSIT LINES
-- STATIONS
-- WARDS
-- COUNCIL AREAS
-- 
-
 ## Measuring Questions
 
 "Compared to me, are you closer or further from \_\_\_\_". 
@@ -49,8 +42,8 @@ Hiders draw 3 and keep 1.
 
 Fill in the blank with:
 - Commercial Airport
-- Train Line (including subways, via, go, but no streetcars)
-- Rail Station (including subways, via, go, but no streetcars).
+- Train Line (including subways, LRTs, via, go, but no streetcars or busses)
+- Rail Station (including subways, LRTs, via, go, but no streetcars or busses)
 - [[Toronto Community Council Areas]] border
 - Sea level
 - Body of Water
@@ -128,9 +121,7 @@ Fill in the blank with:
 
 "Within \_\_\_\_ km of me, which \_\_\_\_ are you nearest to? (You must also be within \_\_\_\_)". 
 
-Hiders must be within reach of the tentacle. The answer to this question is a location (use the exact term provided in the lists)
-
-Valid answers are a photo, posted to group chat, which meets the full specifications of the photo question. 
+Hiders must be within reach of the tentacle. If they are not within reach, simply say "I am not within reach". The answer to this question is a location (use the exact term provided in the lists)
 
 Hiders will have 5 minutes to answer this question. Hiders draw 4 and keep 2. 
 

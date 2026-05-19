@@ -5,6 +5,10 @@ microblog: true
 
 Short thoughts, bookmarks, and links. Newest first.
 
+## 2026-05-19, 4:59 PM
+
+blueteeth is when you have two of them
+
 ## 2026-04-27, 7:44 PM
 
 microguava

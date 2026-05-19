@@ -1,6 +1,6 @@
 
 This is the list of valid transit lines. Generally we include:
-- Subways (lines 1-6)
+- Subways and LRTs (lines 1-6)
 - Street Cars (All 500 level lines)
 - Express busses (900 lines, see below)
 - GO transit lines (see below)
