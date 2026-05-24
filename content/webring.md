@@ -14,13 +14,13 @@ The coolest webring. Why is it called that? It's a long story.
 
 <div style="text-align: center">
 	<br>
-	<a href="/webring">the cool ring</a>
-	<br>
 	<div class="webring-nav">
 	  <a href="https://wq6e.com/" class="webring-prev">← wq6e.com </a>
 	  <span class="webring-separator">|</span>
 	  <a href="#" class="webring-random" onclick="goToRandomSite(); return false;">Random Site</a>
 	  <span class="webring-separator">|</span>
+			<a href="/webring">the cool ring</a>
+			<span class="webring-separator">|</span>
 	  <a href="https://moss.supply/" class="webring-next">moss.supply →</a>
 	</div>
 </div>
