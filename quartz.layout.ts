@@ -1,5 +1,6 @@
 import { PageLayout, SharedLayout } from "./quartz/cfg"
 import * as Component from "./quartz/components"
+import { webringConfig } from "./quartz/data/webring"
 
 // components shared across all pages
 export const sharedPageComponents: SharedLayout = {
@@ -11,6 +12,7 @@ export const sharedPageComponents: SharedLayout = {
       GitHub: "https://github.com/jackyzha0/quartz",
       "Discord Community": "https://discord.gg/cRFFHYye7t",
     },
+    webring: webringConfig,
   }),
 }
 

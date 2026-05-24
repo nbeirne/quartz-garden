@@ -12,4 +12,20 @@ footer {
     gap: 1rem;
     margin-top: -1rem;
   }
+
+  .webring-nav-wrapper {
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+
+  .webring-nav {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.25rem;
+    font-size: 1em;
+
+    .webring-separator {
+      opacity: 0.5;
+    }
+  }
 }

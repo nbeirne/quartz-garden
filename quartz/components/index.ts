@@ -25,6 +25,7 @@ import Flex from "./Flex"
 import ConditionalRender from "./ConditionalRender"
 import SortableTables from "./SortableTables"
 import MicroblogTimeline from "./MicroblogTimeline"
+import WebringMembers from "./WebringMembers"
 
 export {
   ArticleTitle,
@@ -54,4 +55,5 @@ export {
   ConditionalRender,
   SortableTables,
   MicroblogTimeline,
+  WebringMembers,
 }
