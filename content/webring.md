@@ -10,6 +10,7 @@ The coolest webring. Why is it called that? It's a long story.
 > - https://moss.supply/
 > - https://dylanbickers.com/
 > - https://achilleas.org/
+> - https://wq6e.com/
 
 <div style="text-align: center">
 	<br>
@@ -29,7 +30,8 @@ The coolest webring. Why is it called that? It's a long story.
 const sites = [
   'https://moss.supply/',
   'https://dylanbickers.com/',
-  'https://achilleas.org/'
+  'https://achilleas.org/',
+		'https://wq6e.com/'
 ];
 
 function goToRandomSite() {
