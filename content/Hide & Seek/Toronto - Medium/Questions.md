@@ -117,6 +117,8 @@ Fill in the blank with:
 - Place of Worship
 - Train Platform
 
+Rule clarification: When "Train Platform" is asked and the user is at a bus or streetcar stop, they may use the surrounding 10m area for their photo. All the other rules for the Train Platform photo continue to be in effect.
+
 ## Tentacle Questions
 
 "Within \_\_\_\_ km of me, which \_\_\_\_ are you nearest to? (You must also be within \_\_\_\_)". 

@@ -27,3 +27,8 @@ Seekers will ask questions of the hiders to find where they are. Questions will 
 
 You cannot ask more than one question at a time. If you are waiting on an answer, you cannot ask another question. You may use the internet or Googe/Apple maps for research, however you **may not use street view**.
 
+
+### Special Rule: Giving up
+Seekers may need to throw their hands and give up. This may happen due to weather or timing concerns. The give up rule is as follows:
+
+Should the seekers wish to give up, they may do so after at least 3.5 hours. In the case they give up, add the 1.5h hiders current hide time, then add in any time bonuses which are in the hiders hand. This round counts as a "win" for the hider.

@@ -288,7 +288,20 @@ document.addEventListener("nav", async (e: CustomEventMap["nav"]) => {
 
     mobileExplorer.classList.remove("hide-until-loaded")
   }
+
+  // Setup sidebar toggle button
+  const sidebarToggle = document.querySelector(".sidebar-toggle")
+  if (sidebarToggle) {
+    sidebarToggle.addEventListener("click", toggleSidebar)
+    window.addCleanup(() => sidebarToggle.removeEventListener("click", toggleSidebar))
+  }
 })
+
+function toggleSidebar() {
+  const sidebar = document.querySelector(".sidebar.left")
+  if (!sidebar) return
+  sidebar.classList.toggle("sidebar-collapsed")
+}
 
 window.addEventListener("resize", function () {
   // Desktop explorer opens by default, and it stays open when the window is resized
